@@ -15,4 +15,5 @@ This data is drawn from the [USA Centers for Disease Control and Prevention](htt
     ORDER BY
       year, month, day, gender
 
+It is aggregated so as to comply with their terms of use.
 Data was accessed June 9th, 2015.
