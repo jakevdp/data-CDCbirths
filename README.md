@@ -15,7 +15,7 @@ This data is drawn from the [USA Centers for Disease Control and Prevention](htt
     ORDER BY
       year, month, day, gender
 
-It is aggregated so as to comply with their terms of use.
+It is aggregated so as to comply with their [terms of use](http://www.cdc.gov/nchs/data_access/restrictions.htm).
 Data was accessed June 9th, 2015.
 
 Note that this data has been fairly extensively analyzed by Andrew Gelman and his group; see e.g. [this post](http://andrewgelman.com/2012/06/14/cool-ass-signal-processing-using-gaussian-processes/).
