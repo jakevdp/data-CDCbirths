@@ -5,9 +5,7 @@ This data is drawn from the [USA Centers for Disease Control and Prevention](htt
     SELECT
       year, month, day,
       IF (is_male, 'M', 'F') AS gender,
-      SUM(record_weight) as births,
-      SUM(mother_age * record_weight) / SUM(record_weight) as mother_age,
-      SUM(father_age * record_weight) / SUM(record_weight) as father_age
+      SUM(record_weight) as births
     FROM
       [publicdata:samples.natality]
     GROUP BY
